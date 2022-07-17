@@ -23,7 +23,7 @@ export default function TextEditor() {
 
   // initializes the socket connection: runs first render
   useEffect(() => {
-    const s = io(import.meta.env.VITE_SERVER_URI);
+    const s = io(import.meta.env.VITE_VERCEL_SERVER_URI);
     setSocket(s);
 
     return () => {
