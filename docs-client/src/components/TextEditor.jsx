@@ -23,7 +23,7 @@ export default function TextEditor() {
 
   // initializes the socket connection: runs first render
   useEffect(() => {
-    const s = io(import.meta.env.SERVER_URI);
+    const s = io(import.meta.env.VITE_SERVER_URI);
     setSocket(s);
 
     return () => {
@@ -115,6 +115,5 @@ export default function TextEditor() {
     q.setText("Loading...");
     setQuill(q);
   }, []);
-
   return <div className="container" ref={wrapperRef}></div>;
 }

@@ -10,6 +10,8 @@ import "../styles/App.css";
 import TextEditor from "./TextEditor";
 
 function App() {
+  console.log(import.meta.env.VITE_SERVER_URI);
+
   return (
     <Router>
       <Switch>
