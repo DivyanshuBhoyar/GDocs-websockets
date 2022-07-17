@@ -12,7 +12,7 @@ body {
   min-height: 11in;
   padding: 1in;
   margin: 1rem;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;;
   background-color: white;
 }
 
@@ -30,7 +30,7 @@ body {
   z-index: 1;
   background-color: #F3F3F3;
   border: none;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
 @page {

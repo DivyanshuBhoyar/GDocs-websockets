@@ -2,14 +2,15 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Divyanshu Bhoyar",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "mongoose": "^5.12.5",
-    "socket.io": "^4.0.1"
+    "socket.io": "^4.5.1"
   }
 }
