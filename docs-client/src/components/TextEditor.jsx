@@ -23,7 +23,7 @@ export default function TextEditor() {
 
   // initializes the socket connection: runs first render
   useEffect(() => {
-    const s = io(import.meta.env.SERVER_URI || "http://localhost:4000");
+    const s = io(import.meta.env.SERVER_URI);
     setSocket(s);
 
     return () => {
